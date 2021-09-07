@@ -1,18 +1,32 @@
 import React from 'react';
 import '../css/styles.css';
-//import {Header} from '../components/Header';
+import Header from '../components/Header';
 import Fact from '../components/Fact';
 
-            // <Header />
 function MainPage(){
     return (
         <div>
+            <Header />
+            <Fact 
+                factText = "SPEED" 
+            />
             <Fact 
                 factText = "EYES" 
             />
-    
             <Fact 
-                factText = "EYES" 
+                factText = "LIFESPAN" 
+            />
+            <Fact 
+                factText = "DISTANCE" 
+            />
+            <Fact 
+                factText = "LOYALTY" 
+            />
+            <Fact 
+                factText = "SPECIES" 
+            />
+            <Fact 
+                factText = "AGE" 
             />
         </div>
     )

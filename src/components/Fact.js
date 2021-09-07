@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 
 function getFunFact(SELECTOR) {
@@ -23,18 +23,19 @@ function getFunFact(SELECTOR) {
 }
 
 function Fact(props){
+    const [clicked, setClicked] = useState(false);
 
     var factText = getFunFact(props.factText);
     console.log(factText);
     return(
-        <div>
-        <p className={"fact"}>
-            {factText}
-        </p>
-        </div>
-
-        
-        
+        clicked ? 
+          <p className={"fact"}>
+               {factText}
+          </p>
+          :
+          <p className={"unclicked"} onClick={() => setClicked(true)}>
+            GOOSE FACT
+          </p>
     )
 }
 
