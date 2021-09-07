@@ -4,6 +4,13 @@ p {
     text-align: center;
 }
 
+.header {
+    color: yellow;
+    text-align: center;
+    font-size: 48px;
+    padding: 1em;
+}
+
 div {
     background-color: black;
 
