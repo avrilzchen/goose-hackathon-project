@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import honk from '../sounds/honk.ogg';
 
 function getFunFact(SELECTOR) {
     switch(SELECTOR){
@@ -25,6 +25,12 @@ function getFunFact(SELECTOR) {
 function Fact(props){
     const [clicked, setClicked] = useState(false);
 
+    const revealFact = () => {
+        setClicked(true);
+        var honkSound = new Audio(honk);
+        honkSound.play();
+    }
+
     var factText = getFunFact(props.factText);
     console.log(factText);
     return(
@@ -33,7 +39,7 @@ function Fact(props){
                {factText}
           </p>
           :
-          <p className={"unclicked"} onClick={() => setClicked(true)}>
+          <p className={"fact"} onClick={() => revealFact()}>
             GOOSE FACT
           </p>
     )
