@@ -4,7 +4,7 @@ Goose Facts is a short site giving random goose facts, created as part of the SE
 
 Installation requirements:
 
--Internet browser
+- Internet browser
 
 - ReactJS
 
