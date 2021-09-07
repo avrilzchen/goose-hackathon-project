@@ -1,6 +1,7 @@
 p {
     color: yellow;
-    padding: 25% 25%;
+    padding: 20% 10%;
+    text-align: center;
 }
 
 div {
@@ -14,4 +15,5 @@ body {
 
 * {
     font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 1.25rem;
 }

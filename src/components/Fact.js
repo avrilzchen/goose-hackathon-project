@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function getFunFact(SELECTOR) {
     switch(SELECTOR){
         case "SPECIES":
@@ -31,6 +32,8 @@ function Fact(props){
             {factText}
         </p>
         </div>
+
+        
         
     )
 }
