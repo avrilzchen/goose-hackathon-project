@@ -11,3 +11,7 @@ div {
 body {
     background-color: grey;
 }
+
+* {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
