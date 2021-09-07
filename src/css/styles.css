@@ -1,7 +1,13 @@
 p {
     color: yellow;
+    padding: 25% 25%;
+}
+
+div {
+    background-color: black;
+
 }
 
 body {
-    background-color: black;
+    background-color: grey;
 }

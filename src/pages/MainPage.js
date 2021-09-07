@@ -10,6 +10,10 @@ function MainPage(){
             <Fact 
                 factText = "EYES" 
             />
+    
+            <Fact 
+                factText = "EYES" 
+            />
         </div>
     )
 }

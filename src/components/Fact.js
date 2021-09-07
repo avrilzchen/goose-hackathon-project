@@ -26,9 +26,12 @@ function Fact(props){
     var factText = getFunFact(props.factText);
     console.log(factText);
     return(
+        <div>
         <p className={"fact"}>
             {factText}
         </p>
+        </div>
+        
     )
 }
 
